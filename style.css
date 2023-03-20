@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(223, 221, 217);
+}
+#img_google {
+  margin: 10px;
+  width: 100px;
+}
+
+#mainDiv {
+  background-color: #fff;
+  max-width: 300px;
+  padding: 20px;
+}
+
+#add_phone_btn,
+#add_email_btn,
+#add_tickets_btn {
+  width: 100px;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid #1e90ff;
+  background: #1e90ff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+
+#name,
+#lastName,
+#phone,
+#email,
+#tickets {
+  border: none;
+  border-bottom: 1px solid #1e90ff;
+  margin: 10px;
+  width: 265px;
+  padding: 5px;
+  outline: none;
+}
+
+#div {
+  padding: 5px;
+}
+
+#label {
+  font-weight: 500;
+  font-size: 15px;
+  font-family: sans-serif;
+}

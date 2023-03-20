@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mainDiv">
+      <img id="img_google" src="Google.jpg" alt="Google" />
+      <input id="name" placeholder="Name" type="text" />
+
+      <input id="lastName" placeholder="Lastname" type="text" />
+
+      <input id="phone" placeholder="Phone" type="tel" />
+      <div id="div_id_phone"></div>
+
+      <button id="add_phone_btn" onclick="append_input_phone()">
+        Add phone
+      </button>
+
+      <input id="email" placeholder="Email" type="email" />
+      <div id="div_id_email"></div>
+
+      <button id="add_email_btn" onclick="append_input_email()">
+        Add email
+      </button>
+
+      <input id="tickets" placeholder="Tickets" type="text" />
+      <div id="div_id_tickets"></div>
+
+      <button id="add_tickets_btn" onclick="append_input_tickets()">
+        Add tickets
+      </button>
+
+      <div id="div">
+        <label id="label" for="checkbox">
+          <input id="checkbox" type="checkbox" />Remember Me
+        </label>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
